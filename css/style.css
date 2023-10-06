@@ -1,0 +1,633 @@
+/* Common css start  */
+/* =========== Common Css Start =========== */
+:root{
+    --heading-font:'Abril fatface', cursive;
+    --primary-font:'Ubuntu', sans-serif; 
+    --secondary-font:'OpenSans', sans-serif;
+    --primary-color:#0f2f44;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,
+ol,li {
+    margin: 0;
+    list-style-type: none;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.container .about_me .p1{
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--primary-color);
+    font-size: 14;
+}
+
+.container .about_me h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 32;
+    padding-bottom: 15px;
+}
+
+.container .about_me .p2{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 16;
+    padding-bottom:15px;
+}
+
+
+
+/* =========== Common Css End =========== */
+
+
+/*=============== header Section start============ */
+
+/* ++++++++++++++ Top-bar section start ++++++++++++++ */
+
+
+#head-bar{
+    background-color: #0f2f44;
+}
+
+#head-bar .container p{
+    font-family: var(--primary-font);
+   color: #fefefe;
+    font-size: 16px;
+    padding: 19px;
+ 
+}
+
+/* ++++++++++++++ Top-bar section End ++++++++++++++++++ */
+
+/* ========== Nav section start============= */
+
+.navbar  {
+    background-color: #ffffff;
+   
+}
+.navbar #primary_Nav ul li a{
+    color: #222222;
+    display: inline-block;
+    font-size: 16px;
+    padding: 40px 19px;
+    font-family: var(--primary-font);
+    font-weight:500;
+    transition: 0.4s;
+}
+
+.navbar #primary_Nav ul li a:hover{
+    color: #ffce41;
+    background-color: #fff9e6;
+
+}
+
+.navbar #primary_Nav ul li button{
+    border: none;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    margin:0px 10px;
+    text-transform: capitalize;
+}
+.navbar #primary_Nav ul li button:hover{
+    color: #ffce41;
+    background-color: #fff9e6;
+
+}
+
+/* ========== Nav section End ============= */
+
+/*=============== header Section End============ */
+
+
+
+/*++++++++++++++++++++++ banner Section start +++++++++++++++++ */
+#banner{
+    background-color: #e0eeff;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0; 
+    background-image:url(./../img/banner.png); 
+         
+}
+
+
+
+
+#banner .container h1{
+    font-family: var(--heading-font);
+    font-size: 80px;
+}
+
+#banner .container h4{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: #8484bf;
+    font-size: 32px;
+    letter-spacing: 11px;
+}
+
+#banner .container p{
+    font-size: 14px;
+    color: #444444;
+    line-height: 28px;
+}
+
+#banner .container a{
+    color: #ffffff;
+    background-color: #8484bf;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 4%;  
+    width: 164px;
+    font-weight: 500;
+    margin: 30px 20px 0px 6px;
+    transition: 0.5s;
+   
+}
+#banner .container a:hover{
+    color:  #8484bf;
+    background-color: #ffffff;
+    display: inline-block; 
+    font-weight: 500;
+    margin: 30px 20px 0px 6px;
+   
+}
+
+#banner .container .video_player{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    color: #8484bf;
+    position: relative;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 0 7px 20px 0px rgb(132,132, 191, 0.15); 
+    
+}
+
+#banner .container .video_player:hover{
+   background-color: #8484bf;
+   color: #fff;;
+}
+
+#banner .container i{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 19px;
+   
+}
+
+/*++++++++++++++++++++++ banner Section End +++++++++++++++++ */
+
+/*=============== Aout  Section Start============ */
+
+#about{
+    padding-top: 100px;
+    
+}
+#about .container a{
+    color: #0f2f44;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5%;
+   
+    width: 144px;
+    font-weight: 500;
+    margin: 20px 20px 0px 6px;
+    box-shadow: 0 7px 20px 0px rgb(0, 0, 0, 0.15);  
+}
+
+#about .container .about_me ul li{
+    line-height: 44px;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+#about .container .about_me a{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color:var(--primary-color);
+    transition: 0.5s;  
+ 
+}
+
+#about .container .about_me a:hover{
+    background-color: #ffce41;
+    
+}
+
+/*=============== Aout  Section End============ */
+
+
+/* %%%%%%%%%%%%%%%%%%% skills section start %%%%%%%%%%%%%%%%% */
+
+#skill{
+    margin-top: 100px;
+}
+#skill .container .skill_text{
+    text-align:right ;
+
+}
+
+#skill .container img{
+    width: 650px;
+    
+   
+}
+
+#skill .container .img1{
+    width: 400px;
+   
+}
+/* %%%%%%%%%%%%%%%%%%% skills section End %%%%%%%%%%%%%%%%% */
+
+/* Our Services Start */
+#Service_s {
+    margin-top: 101px;
+}
+#Service_s .container .row .icon{
+    width: 100px;
+    background-color: #e9e9e9;
+    padding:0px 25px;
+}
+
+
+#Service_s .container .row .text{
+    width: calc(100% -100px);
+    background-color: #eeeeee;
+    padding: 28px 22px;
+}
+#Service_s{
+    background-color: #f5f5f5;
+    padding-bottom: 61px;
+}
+#Service_s .p1{
+    margin-top: 57px;
+}
+
+
+
+#Service_s .service_box{
+    position: relative;
+    margin-top: 34px;
+  
+}
+
+#Service_s .service_box .overlay{
+    background-color: var(--primary-color);
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    transform: scale(0);
+    transition: 0.6s;
+    padding-top: 40px;
+  
+}
+#Service_s .service_box .overlay h3{
+    color: white;
+    margin-top: 21px;
+}
+
+#Service_s .service_box .overlay a{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fecd2f;
+    display: inline-block;
+    border: none;
+    margin-top: 40px;
+   
+}
+#Service_s .service_box .overlay a i{
+  padding-top: 10px;
+  color: #222222;
+}
+
+
+
+#Service_s .service_box:hover .overlay{
+    transform: scale(1); 
+}
+/* Our Services End */
+
+
+/* +++++++++++++++ Portfolio section start +++++++++++++++++++++ */
+
+#Portfolio_s h2{
+margin-bottom: 45px;
+}
+#Portfolio_s .container .row .p1{
+    padding-top: 100px;
+}
+
+
+
+#Portfolio_s .container .row .browse{
+    margin-top: 60px;
+    display: inline-block;
+}
+#Portfolio_s .container .col-lg-12 .browse{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color:var(--primary-color);
+   border-radius: 5px;  
+    padding:13px 26px;
+    background-color: #ffce41;
+    transition: .7s; 
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+#Portfolio_s .container .row .service_box{
+   
+    position: relative;
+    margin-bottom: 40px;    
+}
+#Portfolio_s .container .row .service_box img{
+    width: 100%;
+    height: 400px;
+}
+#Portfolio_s .container .row .service_box .overlay h3{
+    font-family: var(--primary-font);
+    font-weight: 500px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+#Portfolio_s .container .row .service_box .overlay{
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+  transform: scale(0);
+  transition: .6s;
+  transform-origin: bottom;
+
+}
+#Portfolio_s .container .row .service_box:hover .overlay{
+    transform: scale(1);
+    box-shadow: 0 15px 50px 10px rgba(0, 0, 0,0.15);
+}
+
+
+
+#Portfolio_s .container .col-lg-12 .browse:hover{
+background-color: #d5cfcf;
+}
+
+/* +++++++++++++++ Portfolio section End +++++++++++++++++++++ */
+
+
+
+/* My testimonial section start */
+
+   #testimonials .about_me .text-service{
+       background-color: #e9e9e9;
+       margin-top: 0px;
+        text-align: left;
+        padding-top: 15px;
+        padding-right: 19px;
+      
+       
+   }
+  
+   
+   #testimonial{
+       background-color: #f5f5f5;
+       margin-top: 63px;  
+     padding-bottom: 58px;
+   }
+   
+   #testimonial  .about_me .p1{
+    margin-top: 60px;
+   }
+   
+   #testimonial  .about_me h2{
+    margin-bottom: 60px;
+   }
+
+
+   #testimonial   .p_img1{
+   background-color: #e9e9e9;
+   }
+
+  
+   #testimonial .container .row .img1{
+    background-color: #b2b2b2;
+    background-image: url(../img/testimonial.img1.png);
+    background-size: cover;
+    background-position: center;
+    
+   }
+
+  
+   #testimonial .container .row h3{
+    padding: 0px 22px;
+   }
+   #testimonial .container .row p{
+    padding:0px 22px 28px 22px;
+   }
+   #testimonial .container .row .text{
+    margin-top: 25px;
+   }
+
+   #testimonial .container .row .img2{
+    background-color: #b2b2b2;
+    background-image: url(../img/testimonial.img2.png);
+    background-size: cover;
+   }
+   
+   
+
+   /* My testimonial section End */
+
+
+   /* Our latest vlog section start  */
+
+
+   #Ourlatest .text{
+    padding-top:17px;
+  
+   }
+
+#Ourlatest .text p{
+    font-family: var(--primary-font);
+    font-weight: 400px;
+    color: #a5a5a5;
+    font-size: 14px;
+    margin-top: 30px;
+}
+#Ourlatest .text h4{
+    font-family: var(--primary-font);
+    font-weight: 500px;
+    color: #222222;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+#Ourlatest .text a{
+    font-family: var(--primary-font);
+    font-weight: 500px;
+    color: #a5a5a5;
+    font-size: 16px;
+    margin-top: 21px;
+    display: inline-block;
+    margin-bottom: 28px;
+}
+
+   #Ourlatest .container .about_me .p1{
+    margin-top: 99px;
+   }
+
+   #Ourlatest .container .about_me h2{
+    margin-bottom: 61px;
+   }
+  #Ourlatest .container .row .text{
+    background-color: #f5f5f5;
+   
+    transition: 0.5s;
+  }
+  #Ourlatest .container .row .text:hover{
+    background-color: #0f2f44;
+  }
+  #Ourlatest .container .row .text:hover p{
+    color: #ffffff;
+  }
+  #Ourlatest .container .row .text:hover h4{
+    color: #ffffff;
+  }
+
+
+#Ourlatest .container .p_img1{
+    background-color: rgb(67, 67, 67);
+}
+
+#Ourlatest .container .p_img2{
+    background-color: rgb(67, 67, 67);
+}
+#Ourlatest .container .p_img3{
+    background-color: rgb(67, 67, 67);
+}
+#Ourlatest .container .col-lg-12 .browse{
+        font-size: 20px;
+        font-family: var(--primary-font);
+        font-weight: 500;
+        color:var(--primary-color);
+       border-radius: 5px;  
+        padding:13px 26px;
+        background-color: #ffce41;
+        transition: .7s; 
+        display: inline-block;
+        text-align: center;
+        margin-top: 60px;
+       
+}
+
+
+#Ourlatest .container .col-lg-12 .browse:hover{
+    background-color: #d5cfcf;
+}
+
+    /* Our latest vlog section End  */
+
+    /* foter section start */
+
+    #footer_1 .container .row .icon li{
+        padding:12px;
+        padding-right: 6px;
+        padding-left: 0px;
+        
+        
+    }
+    #footer_1 .container .row .icon li button{
+        color:var(--primary-color);
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    #footer_1 .container .row .icon button:hover {
+        background-color: var(--primary-color);
+    }
+    #footer_1 .container .row .icon button:hover i{
+      color:white;
+    }
+    #footer_1 .img .fotter_img{
+       width: 25%;
+       
+    }
+    #footer_1 .container .row p{
+        margin: 33px 0px 0px 0px;
+        line-height: 26px;
+        color: #9e9e9e;
+        font-family: var(--secondary-font);
+        font-size: 14px;
+        
+    }
+    #footer_1 .container .row  address{
+        color: #9e9e9e;
+        font-family: var(--secondary-font);
+        font-size: 14px;
+       
+    }
+    #footer_1 .container .row  .add_text{
+      margin-bottom: 10px; 
+       
+    }
+    #footer_1 .container .row li{
+        color:  #9e9e9e;
+       
+    }
+    #footer_1 .container .row .nav_2 a{
+        color: #444444;
+        font-family: var(--secondary-font);
+        font-size: 14px;
+        line-height: 30px;
+        
+    }
+    #footer_1 .container .row .work_box{
+        width: 20%;
+        margin: 8px 7px;
+    }
+    #footer_1 .container .row .section_info .about_me h3{
+        color: #222222;
+        margin-bottom: 40px;
+        font-family: var(--primary-font);
+        font-weight: 500px;
+        font-size:20px;
+
+    }
+    #footer_1{
+        background-color: #f5f5f5;
+      box-shadow: 0 0px 35px 0px rgb(0,0, 0, 0.15); 
+      padding: 90px 0px 60px 0px;
+      margin-top: 102px;
+      margin-bottom: 21px;
+    }
+     .copy p a {
+        color: #fecd2f;
+        font-family: var(--secondary-font);
+        font-size: 14px;
+       
+
+    }
+    .copy p{
+        margin-bottom: 20px;
+    }
+
+   
+    
+
+        /* foter section End */
